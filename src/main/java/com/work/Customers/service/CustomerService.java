@@ -38,6 +38,7 @@ public class CustomerService {
 	
 	public String deleteCustomer(Long id) {
 		repo.findById(id).orElseThrow(() -> new RuntimeException());
+		repo.deleteById(id);
 		return "Data Deleted Successfully";
 	}
 

@@ -18,8 +18,7 @@ A simple Spring Boot REST API for managing customer orders. This project allows 
 - Spring Boot
 - Spring Web
 - Spring Data JPA
-- Hibernate
-- MySQL / H2 Database (based on configuration)
+- MySQL 
 - Maven
 
 ## Project Structure
@@ -32,6 +31,9 @@ src/main/java/com/work/Customers
 │── model
 │   └── Customer.java
 │
+|── repository
+|   └── CustomerRepository
+|
 │── service
 │   └── CustomerService.java
 ```
